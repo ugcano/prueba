@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #fdd835;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+main {
+    padding: 20px;
+}
+
+section#teorias, section#destacados {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #f57c00;
+}
+
+.teoria, .articulo {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.teoria h2, .articulo h3 {
+    color: #f57c00;
+}
+
+.leer-mas {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #f57c00;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.leer-mas:hover {
+    background-color: #e64a19;
+}
+
+.galeria-imagenes {
+    display: flex;
+    gap: 15px;
+}
+
+.galeria-imagenes img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+footer a {
+    color: #fdd835;
+    text-decoration: none;
+}
