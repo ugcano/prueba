@@ -1,0 +1,42 @@
+// base.scss
+
+// Variables
+$font-stack: Arial, sans-serif;
+$background-color: #f7f7f7;
+$primary-color: #fdd835;
+$secondary-color: #333;
+$highlight-color: #f57c00;
+$link-color: #007bff;
+$footer-background: #333;
+$footer-text-color: white;
+$link-hover-color: #fdd835;
+
+// Reset básico
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-stack;
+    background-color: $background-color;
+    color: $secondary-color;
+}
+
+h1, h2 {
+    color: $highlight-color;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+
+    li {
+        margin-bottom: 10px;
+    }
+}

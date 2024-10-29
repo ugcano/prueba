@@ -1,0 +1,40 @@
+// components.scss
+
+// Enlaces
+a {
+    text-decoration: none;
+    color: $secondary-color;
+    font-weight: bold;
+}
+
+a:hover {
+    color: $link-color;
+}
+
+// Nav (navegación)
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+
+    li {
+        display: inline;
+
+        a {
+            padding: 10px;
+        }
+    }
+}
+
+footer {
+    text-align: center;
+    background-color: $footer-background;
+    color: $footer-text-color;
+    padding: 20px;
+    margin-top: 40px;
+
+    a {
+        color: $link-hover-color;
+        text-decoration: none;
+    }
+}
